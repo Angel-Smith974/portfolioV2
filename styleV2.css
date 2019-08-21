@@ -1,0 +1,33 @@
+/*****************Tête de page*******************/
+.navbar{
+    height: 100vh;
+    padding-bottom: 10vh;
+}
+
+.grosTitre{
+    font-size: 20vh;
+    text-align: end;   
+    
+}
+
+.nav{
+    font-size: 5vh;
+    text-align: left;
+}
+
+/*****************Section 01*********************/
+
+/*****************Section 02*********************/
+
+/********************Carte***********************/
+
+/*****************Section 03*********************/
+
+/***********bouton Déplacement rapide************/
+
+/********************All way*********************/
+section{
+    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
