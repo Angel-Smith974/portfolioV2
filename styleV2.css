@@ -1,18 +1,25 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 /*****************Tête de page*******************/
 
 .navbar {
     height: 30vh;
     padding-top: 35vh;
-    padding-bottom: 40vh;;
+    padding-bottom: 40vh;
+    font-family: 'Mukta', sans-serif;
 }
 
 .grosTitre {
     font-size: 20vh;
-    text-align: end;    
+    text-align: end;
+}
+
+.sousTitre {
+    font-family: 'Mukta', sans-serif;
+    text-align: end;
+    color: black;
 }
 
 .nav {
@@ -30,33 +37,34 @@ html {
 
 /*******************Contact**********************/
 
-
-#email{
+#email {
     width: 30vh;
 }
 
-#message{
+#message {
     width: 70vh;
     height: auto;
 }
 
 /***********bouton Déplacement rapide************/
-.fas{
-    font-size:5vh;
-    padding:5vh;
+
+.fas {
+    font-size: 5vh;
+    padding: 5vh;
     color: #6c757d;
 }
 
-.up{
+.up {
     transform: rotate(-90deg);
 }
 
-.down{
+.down {
     transform: rotate(90deg);
 }
+
 /********************All way*********************/
 
-.section {  
+.section {
     padding-top: 15rem;
     padding-bottom: 20rem;
 }
@@ -65,4 +73,5 @@ html {
     font-size: 10vh;
     text-align: center;
     padding-bottom: 5vh;
+    font-family: 'Mukta', sans-serif;
 }
