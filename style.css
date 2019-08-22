@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*****************Tête de page*******************/
+
+.navbar {
+    height: 30vh;
+    padding-top: 35vh;
+    padding-bottom: 40vh;
+    font-family: 'Mukta', sans-serif;
+}
+
+.grosTitre {
+    font-size: 20vh;
+    text-align: end;
+}
+
+.sousTitre {
+    font-family: 'Mukta', sans-serif;
+    text-align: end;
+    color: black;
+}
+
+.nav {
+    font-size: 5vh;
+    text-align: left;
+}
+
+/*****************Section 01*********************/
+
+/*****************Section 02*********************/
+
+/********************Carte***********************/
+
+/*****************Section 03*********************/
+
+/*******************Contact**********************/
+
+#email {
+    width: 30vh;
+}
+
+#message {
+    width: 70vh;
+    height: auto;
+}
+
+/***********bouton Déplacement rapide************/
+
+.fas {
+    font-size: 5vh;
+    padding: 5vh;
+    color: #6c757d;
+}
+
+.up {
+    transform: rotate(-90deg);
+}
+
+.down {
+    transform: rotate(90deg);
+}
+
+/********************All way*********************/
+
+.section {
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+}
+
+.titre h2 {
+    font-size: 10vh;
+    text-align: center;
+    padding-bottom: 5vh;
+    font-family: 'Mukta', sans-serif;
+}
