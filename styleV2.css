@@ -1,16 +1,21 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 /*****************Tête de page*******************/
-.navbar{
-    height: 100vh;
-    padding-bottom: 10vh;
+
+.navbar {
+    height: 30vh;
+    padding-top: 35vh;
+    padding-bottom: 40vh;;
 }
 
-.grosTitre{
+.grosTitre {
     font-size: 20vh;
-    text-align: end;   
-    
+    text-align: end;    
 }
 
-.nav{
+.nav {
     font-size: 5vh;
     text-align: left;
 }
@@ -23,11 +28,41 @@
 
 /*****************Section 03*********************/
 
-/***********bouton Déplacement rapide************/
+/*******************Contact**********************/
 
+
+#email{
+    width: 30vh;
+}
+
+#message{
+    width: 70vh;
+    height: auto;
+}
+
+/***********bouton Déplacement rapide************/
+.fas{
+    font-size:5vh;
+    padding:5vh;
+    color: #6c757d;
+}
+
+.up{
+    transform: rotate(-90deg);
+}
+
+.down{
+    transform: rotate(90deg);
+}
 /********************All way*********************/
-section{
-    height: 100vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+
+.section {  
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+}
+
+.titre h2 {
+    font-size: 10vh;
+    text-align: center;
+    padding-bottom: 5vh;
 }
